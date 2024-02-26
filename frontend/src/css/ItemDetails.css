@@ -1,0 +1,15 @@
+
+.item-detail {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    box-shadow: black;
+    min-width: 900px;
+}
+
+.item-header {
+    color: #00b4d8;
+}

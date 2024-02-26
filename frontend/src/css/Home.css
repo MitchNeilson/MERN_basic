@@ -1,0 +1,31 @@
+html {
+    background: #f3f3f3;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #fff;
+}
+  
+header .container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+header a {
+    color: #333;
+    text-decoration: none;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+}

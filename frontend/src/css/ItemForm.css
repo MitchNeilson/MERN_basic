@@ -1,0 +1,14 @@
+.create {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.create * {
+    margin-top: 5px;
+}
+
+.create button {
+    margin-top: 20px;
+}
