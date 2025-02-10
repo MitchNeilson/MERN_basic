@@ -8,8 +8,8 @@ export default function Home() {
 
     useEffect(() => {
         const fetchItems = async () => {
-            console.log("FETCHING:",process.env.MONGO_URI);
-            const response = await fetch(process.env.MONGO_URI)//'http://localhost:5000/api/items')
+            console.log("FETCHING:",process.env.BACKEND);
+            const response = await fetch(process.env.BACKEND)//'http://localhost:5000/api/items')
             const json = await response.json()
 
             if (response.ok) {
