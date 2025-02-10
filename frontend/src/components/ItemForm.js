@@ -11,7 +11,7 @@ export default function ItemForm() {
 
         const item = {name,description}
         
-        const response = await fetch('http://localhost:5000/api/items',{
+        const response = await fetch(process.env.MONGO_URI,{
             method: 'POST',
             body: JSON.stringify(item),
             headers: {
