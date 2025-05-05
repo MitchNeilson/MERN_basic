@@ -18,6 +18,7 @@ app.use((req,res,next) => {
 
 app.use('/api/items',itemsRoutes)
 
+console.log("TEST PUSH");
 console.log("TESTING HERE");
 console.log("ENV: ",process.env.MONGO_URI); 
 
