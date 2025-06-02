@@ -22,6 +22,7 @@ console.log("TEST PUSH");
 console.log("TESTING HERE");
 console.log("TESTING HERE v2");
 console.log("TESTING HERE v3");
+console.log("TESTING HERE v4");
 console.log("ENV: ",process.env.MONGO_URI); 
 
 mongoose.connect(process.env.MONGO_URI)
